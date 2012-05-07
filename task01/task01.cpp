@@ -53,7 +53,7 @@ FibonacciLUT::~FibonacciLUT() {
 }
 
 long FibonacciLUT::GetFibonacciNumber(int n) {
-	if((n<0)|(n>=SizeOfLUT)) {
+	if((n<0)||(n>=SizeOfLUT)) {
 		cout << "Out of Range!" << endl;
 		return -1;
 	} else {
